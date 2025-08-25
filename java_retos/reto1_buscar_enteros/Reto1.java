@@ -9,9 +9,10 @@ import java.util.regex.*;
 
 public class Reto1 {
     public static void main(String[] args) {
-        String texto = "En 2023, había 15 estudiantes y 3 profesores.";
+        String texto = "En 2023, había 16 estudiantes y 10 profesores, 10 tienen papá y 16 no tienen.";
         // Expresión regular para enteros (positivos y negativos)
-        String patron = "-?\\b\\d+\\b";
+        String patron = "\\b-?\\d+\\b";
+
         Pattern pattern = Pattern.compile(patron);
         Matcher matcher = pattern.matcher(texto);
         System.out.print("Enteros encontrados: ");
