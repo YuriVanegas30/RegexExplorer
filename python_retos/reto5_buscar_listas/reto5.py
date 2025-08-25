@@ -7,10 +7,10 @@
 
 import re
 
-texto = "Las listas son [1, 2, 3] y [4, 5, 6]."
+texto = "Las listas son [1, 2, 3] y [4, 5, 6] y [30, 40, 50, 70, 100, 80]."
 
 # Expresión regular para listas de números
-patron = r"\[\s*\d+(?:\s*,\s*\d+)*\s*\]"
+patron = r"\[\s*\d+(?:\s*,\s*\d+)*\s*\]" # Funciona excelente, no hubo necesidad de cambios, ya que cumple con busacr listas de números.  
 
 # Buscar todas las listas
 listas = re.findall(patron, texto)
