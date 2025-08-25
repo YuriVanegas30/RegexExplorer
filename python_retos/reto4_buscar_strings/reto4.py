@@ -7,10 +7,10 @@
 
 import re
 
-texto = 'El mensaje es "Hola mundo" y la clave es "1234".'
+texto = 'El mensaje es "Holiwiiiis" y la clave es "10300000".'
 
 # Expresión regular para strings entre comillas dobles
-patron = r'"(.*?)"'
+patron = r'"(.*?)"' # no hay nada que corregir todo esta perfecto
 
 # Buscar todos los strings
 strings = re.findall(patron, texto)
