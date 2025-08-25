@@ -7,10 +7,11 @@
 
 import re
 
-texto = "El precio es 12.50 dólares, pero antes era 10.0."
+texto = "El precio es 12.00 dolares, pero antes era 10.0, subió 2.00add dolares."
 
 # Expresión regular para flotantes (números con punto decimal)
-patron = r"-?\\b\\d+\\.\\d+\\b"
+# patron = r"-?\\b\\d+\\.\\d+\\b"
+patron = r"\b-?\d+\.\d+\b"
 
 # Buscar todos los flotantes
 flotantes = re.findall(patron, texto)
