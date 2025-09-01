@@ -23,7 +23,7 @@ print("Strings:", strings)
 print()
 print("Listas:", listas)
 print()
-print("Booleanos encontrados:", Booleanos)
+print("Booleanos encontrados:", Booleans)
 
 
 
